@@ -107,6 +107,5 @@ else if (iScotland < iEngland.population && iWales && iNorthernIreland)
 
 {console.log("Scotland has the smallest population")}
 // given that the above conditions fail implies scotland population is somewhere in the middle
-
 else{console.log("Scotland's population is somewhere in the middle")}
 
