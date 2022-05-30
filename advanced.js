@@ -81,8 +81,6 @@ console.log("The keys are: " + northernIrelandKeys)
 
 
 // notes: need to gain access to value of the population keys 
-
-
 // if the population of scoland is greater 
 
  iScotland= unitedKingdom[unitedKingdom.findIndex(country => country.name === "Scotland")]
