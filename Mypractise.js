@@ -1,3 +1,6 @@
+// Some additional exercises I did for end of day consolidation
+
+
 family = ["mum", "dad", "dora", "crem", "paula", "carla"]
 
 // remove carla
