@@ -1,0 +1,5 @@
+while (true)
+{lotteryNumbers = Math.random();
+console.log(lotteryNumbers);
+if (lotteryNumbers >0.8)
+{break;}}

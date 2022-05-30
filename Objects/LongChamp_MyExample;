@@ -1,0 +1,3 @@
+Bag = {name: "Longchamp", founder: "Jean Cassegrain", owner: true, ownerName:"Ana", price: 80};  
+for(key in Bag){value = Bag [key];
+console.log(`The ${key} is ${value}`);}
