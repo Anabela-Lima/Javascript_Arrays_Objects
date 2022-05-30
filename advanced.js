@@ -53,7 +53,6 @@ touristAttractions = unitedKingdom[unitedKingdom.findIndex(location => location.
 console.log(unitedKingdom);
 
 
-
 // **
 //  * Q2. Change the capital of Wales to "Cardiff"
 //  */
@@ -62,8 +61,6 @@ console.log(unitedKingdom);
 unitedKingdom[unitedKingdom.findIndex(country => country.name === "Wales")].capital = "Cardiff";
 // print to the console
 console.log(unitedKingdom);
-
-
 
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
@@ -76,8 +73,6 @@ northernIrelandKeys = Object.keys(unitedKingdom[unitedKingdom.findIndex(country 
 
 // print to console
 console.log("The keys are: " + northernIrelandKeys)
-
-
 
 
 /**
