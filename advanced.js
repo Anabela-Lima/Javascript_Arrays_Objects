@@ -59,9 +59,8 @@ console.log(unitedKingdom);
 //  */
 
 // find where name wales is 
-
-
 unitedKingdom[unitedKingdom.findIndex(country => country.name === "Wales")].capital = "Cardiff";
+// print to the console
 console.log(unitedKingdom);
 
 
