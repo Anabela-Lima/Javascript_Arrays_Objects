@@ -57,12 +57,21 @@ else {"There are " + family.length + "in the house lets save the barbeque for th
  { family.push("new baby boy") + console.log ("sister had a baby boy")}
  else {console.log("no new additions yet!")}
 
- 
 
- // for loops  -- printing each element in array 
+ // classic for loops  -- printing each element in array 
 
  for( i = 0 ; i <= family.length -1 ; i++)
  {console.log(" Family memebers:  " + family[i])}
+
+ // for loop method 2:
+
+ for (item of family)   // item can be anything we want to call it
+ {console.log("using of to print elements of family :" + item.toUpperCase())}
+
+ // now each element of family in uppercase
+
+ for(item of family)
+ {console.log("using of to print and method uppercase " + item)}
 
  // printing family array list backwards 
 
